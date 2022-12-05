@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+img{
+    max-width: 50px;
+    align-items: center;
+    
+}
+fieldset{
+    position: absolute;
+    background-color: rgb(214, 161, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+}
+
+.green{
+    background-color: green;   
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 35%; 
+}
+.green:hover{
+    border-color: aliceblue;
+    background-color: chartreuse;
+}
+label{
+    padding:10px;
+}
+input{
+    padding: 10px;
+}
+
+fieldset h1{
+    margin-left: 30%;
+}
+
